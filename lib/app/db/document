@@ -1,0 +1,31 @@
+const mySubscriptionsDoc = """query Query {
+  mySubscriptions {
+    billing_amount
+    billing_date
+    billing_status
+    billing_type
+    car_type
+    created_at
+    id
+    location
+    model {
+      car {
+        logo
+        make
+      }
+      id
+      name
+      photo
+      type
+    }
+    model_year
+    payment_status
+    payment_url
+    plan_type
+    plate_number
+    preferred_plan_coverage
+    service_date
+    standardisation
+    uniqueID
+  }
+}""";
